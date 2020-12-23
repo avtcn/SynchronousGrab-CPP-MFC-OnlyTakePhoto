@@ -61,16 +61,16 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <Import Project="..\..\..\..\Build\VS2010\Examples.props" />
+    <Import Project="C:\Users\Public\Documents\Allied Vision\Vimba_4.0\VimbaCPP_Examples\Build\VS2010\Examples.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <Import Project="..\..\..\..\Build\VS2010\Examples.props" />
+    <Import Project="C:\Users\Public\Documents\Allied Vision\Vimba_4.0\VimbaCPP_Examples\Build\VS2010\Examples.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <Import Project="..\..\..\..\Build\VS2010\Examples.props" />
+    <Import Project="C:\Users\Public\Documents\Allied Vision\Vimba_4.0\VimbaCPP_Examples\Build\VS2010\Examples.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <Import Project="..\..\..\..\Build\VS2010\Examples.props" />
+    <Import Project="C:\Users\Public\Documents\Allied Vision\Vimba_4.0\VimbaCPP_Examples\Build\VS2010\Examples.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
@@ -96,7 +96,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\Source;..\..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Source;C:\Users\Public\Documents\Allied Vision\Vimba_4.0\VimbaCPP_Examples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -126,7 +126,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\Source;..\..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Source;C:\Users\Public\Documents\Allied Vision\Vimba_4.0\VimbaCPP_Examples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -155,7 +155,7 @@
       <ValidateAllParameters>false</ValidateAllParameters>
     </Midl>
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\Source;..\..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Source;C:\Users\Public\Documents\Allied Vision\Vimba_4.0\VimbaCPP_Examples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -185,7 +185,7 @@
       <TargetEnvironment>X64</TargetEnvironment>
     </Midl>
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\Source;..\..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Source;C:\Users\Public\Documents\Allied Vision\Vimba_4.0\VimbaCPP_Examples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -216,8 +216,8 @@
     <ResourceCompile Include="..\..\Source\res\SynchronousGrab.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Common\ErrorCodeToMessage.h" />
-    <ClInclude Include="..\..\..\..\Common\StreamSystemInfo.h" />
+    <ClInclude Include="C:\Users\Public\Documents\Allied Vision\Vimba_4.0\VimbaCPP_Examples\Common\ErrorCodeToMessage.h" />
+    <ClInclude Include="C:\Users\Public\Documents\Allied Vision\Vimba_4.0\VimbaCPP_Examples\Common\StreamSystemInfo.h" />
     <ClInclude Include="..\..\Source\res\resource.h" />
     <ClInclude Include="..\..\Source\stdafx.h" />
     <ClInclude Include="..\..\Source\SynchronousGrabDlg.h" />
