@@ -1,0 +1,1 @@
+# SynchronousGrab-CPP-MFC-OnlyTakePhoto
